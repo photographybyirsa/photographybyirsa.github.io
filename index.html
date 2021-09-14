@@ -57,7 +57,7 @@
 
   <main class="main-content">
 
-    <section class="site-section-hero bg-image" style="background-image: url('images/img_11.jpg');"  data-stellar-background-ratio="0.5" id="section-home">
+    <section class="site-section-hero bg-image" style="background-image: url('images/img_front.jpg');"  data-stellar-background-ratio="0.5" id="section-home">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-7 text-center">
             <h1 class="text-white heading text-uppercase" data-aos="fade-up">Irsa Farooq</h1>
@@ -76,10 +76,10 @@
           
             var galleryHtml = '';
           
-            for (var i = 0; i < 10; i++) {
+            for (var i = 1; i <= 12; i++) {
                 galleryHtml += '<div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">';
-                galleryHtml += '<a href="images/img_' + (i + 1) + '.jpg" class="d-block photo-item" data-fancybox="gallery">';
-                galleryHtml += '<img src="images/img_' + (i + 1) + '.jpg" alt="Image" class="img-fluid">';
+                galleryHtml += '<a href="images/img_' + i + '.jpg" class="d-block photo-item" data-fancybox="gallery">';
+                galleryHtml += '<img src="images/img_' + i + '.jpg" alt="Image" class="img-fluid">';
                 galleryHtml += '<div class="photo-text-more"><span class="icon icon-search"></span></div></a></div>';
               }
           
